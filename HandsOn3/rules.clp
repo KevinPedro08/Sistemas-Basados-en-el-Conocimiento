@@ -153,7 +153,7 @@
 
 ;;regla 20
 (defrule regla-recomendacion-mousepad
-   (orden-compra (id ?id) (producto "mouse"))
+   (orden-compra (id ?id) (producto "deathadder"))
    =>
    (printout t "Te sugerimos comprar un mousepad para tu nuevo mouse." crlf)
 )
